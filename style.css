@@ -1,0 +1,149 @@
+/* body{
+    color: blueviolet;
+} */
+
+.navbar-brand{
+    font-size: 3rem;
+    color: skyblue;
+}
+.nav-icon{
+    font-size: 1.5rem;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    padding: 1rem;
+    color: blue;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.banner{
+    background: url('./images/yin-weiquan-_Zxu12ObsPY-unsplash.jpg') no-repeat;
+    height: 90vh;
+    background-size: cover;
+    position: relative;
+}
+.banner-txt{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+}
+.btn{
+    border-radius: 1.3rem;
+    padding: 0.8rem 2rem;
+    margin: 0.5rem;
+    background: darkblue;
+    border: none;
+}
+.btn-2{
+    background: white;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.h-lock{
+    display: flex;
+}
+.fa-house-lock{
+    font-size: 3rem;
+    color: rgb(34, 168, 221);
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 1.25rem 1.25rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-3{
+    background: rgb(171, 30, 159);
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.fa-globe{
+    color:rgb(34, 168, 221) ;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 1rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.our{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.arrow{
+    padding-left: 5rem;
+    color: rgb(34, 168, 221);
+}
+.num{
+    color: rgb(34, 168, 221);
+}
+.para-num{
+    font-size: 2rem;
+    border: 2px solid white;
+    color: hotpink;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.two-img{
+    border: 2px solid white;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.two-img img{
+    border: 2px solid white;
+    border-radius: 5rem;
+}
+
+.security{
+    border: 2px solid white;
+    border-radius: 3rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2)
+}
+.Product{
+    color: blueviolet;
+}
+
+.title{
+    color: blueviolet;
+}
+
+.embed-responsive{
+    height: 60vh;
+    width: 72vw;
+    border-radius: 3rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2)
+}
+
+/* .years
+{
+    border-right: 2px solid gray;
+    margin-left: 1rem;
+} */
+.numeric{
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2)
+}
+.btn-pri{
+    padding: 0.5rem 3rem;
+    color: white;
+    background: rgb(34, 168, 221);
+    border-radius: 3rem;
+}
+.news{
+    border: 2px solid white;
+    border-radius: 2rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2)
+}
+.progress{
+    height: 0.3rem;
+}
+
+.profile img{
+    width: 8rem;
+    height: 8rem;
+    margin: auto;
+    border-radius: 4rem;
+}
