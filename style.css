@@ -3,9 +3,9 @@ body{
     /* background: #000; */
 }
 
-.navbar-brand{
+.navbar-light .navbar-brand{
     font-size: 3rem;
-    color: skyblue;
+    color: rgb(34, 168, 221);
 }
 .fa-facebook-f{
     width: 3.75rem;
@@ -27,9 +27,13 @@ body{
 }
 .banner-txt{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 30%;
     color: white;
+}
+.cctv{
+    font-size: 4rem;
+    font-weight: 400;
 }
 .btn{
     border-radius: 1.3rem;
@@ -224,6 +228,7 @@ filter: invert(100%);
     width: 100%;
     height: 70vh;
     filter: grayscale(100%);
+    border-radius: 2rem;
 }
 
 .footer-top{
@@ -235,4 +240,98 @@ filter: invert(100%);
 }
 .footer{
     border-top: 1px solid #aaa;
+}
+
+@media screen and (max-width: 480px){
+    .navbar-brand{
+        margin-left: 1.3rem;
+    }
+.banner-txt {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    color: white;
+}
+.banner{
+    height: 50vh;
+}
+.cctv {
+    font-size: 3rem;
+    font-weight: 400;
+}
+.h-lock {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: column;
+    align-items: center;
+}
+.para-num{
+    padding: 1rem;
+}
+.arrow{
+    padding-left: 1rem;
+}
+.card.ml-5.two-img {
+    margin-left: 0!important;
+}
+.embed-responsive {
+    height: 30vh;
+    width: 93vw;
+    border-radius: 3rem;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
+    margin-top: 1rem;
+}
+.news{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.subscribe-txt{
+    font-weight: 400;
+}
+.card.profile.mx-5.card2 {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.user{
+    font-size: 2rem;
+}
+.carousel-item img {
+    width: 22vw;
+    height: 10vh;
+}
+.follow{
+    flex-direction: column;
+}
+i.fa-brands.fa-instagram.icons{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.orgnazation{
+    margin-top: 1rem;
+}
+.customer{
+    flex-direction: column;
+}
+.world{
+    display: inline-block;
+    text-align: center;
+}
+.glob{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.map{
+    height: 50vh;
+    border-radius: 3rem;
+}
 }
