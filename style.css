@@ -1,21 +1,26 @@
-/* body{
-    color: blueviolet;
-} */
+body{
+    color: rgb(88, 82, 82);
+    /* background: #000; */
+}
 
 .navbar-brand{
     font-size: 3rem;
     color: skyblue;
+}
+.fa-facebook-f{
+    width: 3.75rem;
+    text-align: center;
 }
 .nav-icon{
     font-size: 1.5rem;
     border: 2px solid whitesmoke;
     border-radius: 50%;
     padding: 1rem;
-    color: blue;
+    color: rgb(34, 168, 221);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 .banner{
-    background: url('./images/yin-weiquan-_Zxu12ObsPY-unsplash.jpg') no-repeat;
+    background: linear-gradient( rgba(115, 204, 237, 0.5) 100%, rgba(4, 255, 255, 0.5)100%), url('./images/yin-weiquan-_Zxu12ObsPY-unsplash.jpg') no-repeat;
     height: 90vh;
     background-size: cover;
     position: relative;
@@ -42,6 +47,7 @@
     display: flex;
 }
 .fa-house-lock{
+    height: 6.5rem;
     font-size: 3rem;
     color: rgb(34, 168, 221);
     border: 2px solid white;
@@ -121,10 +127,13 @@
     margin-left: 1rem;
 } */
 .numeric{
+    width: 5.25rem;
+    text-align: center;
     border: 2px solid white;
     padding: 1rem;
-    border-radius: 2rem;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2)
+    border-radius: 50%;
+    color: rgb(34, 168, 221);
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.2)
 }
 .btn-pri{
     padding: 0.5rem 3rem;
@@ -139,11 +148,91 @@
 }
 .progress{
     height: 0.3rem;
+    color: rgb(34, 168, 221);
 }
 
 .profile img{
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     margin: auto;
-    border-radius: 4rem;
+    border-radius: 5rem;
+}
+
+.card-group>.card+.card{
+    border: 1px solid white;
+    border-radius: 2rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.card-group>.card:not(:last-child){
+    border: 1px solid white;
+    border-radius: 2rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img{
+    width: 12vw;
+    height: 12rem;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.slider{
+    margin-top: 7rem;
+    position: relative;
+}
+
+.carousel-caption{
+    color: rgba(0, 0, 0, 0.5);
+    position: static;
+    padding-bottom: 1rem;
+    padding-top: 0;
+}
+.carousel-control-prev,
+.carousel-control-next{
+filter: invert(100%);
+}
+.carousel-control-next-icon{
+    width: 4rem;
+    height: 1rem;
+}
+
+.icons{
+    font-size: 1.5rem;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    padding: 1rem;
+    color: rgb(34, 168, 221);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.world{
+    display: grid;
+    grid-template-rows: repeat(1fr);
+}
+
+.glo{
+    height: 3.1rem;
+    color:rgb(34, 168, 221) ;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 1rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.map{
+    width: 100%;
+    height: 70vh;
+    filter: grayscale(100%);
+}
+
+.footer-top{
+    list-style: none;
+}
+.footer-top li a{
+    color: #aaa;
+    text-decoration: none;
+}
+.footer{
+    border-top: 1px solid #aaa;
 }
