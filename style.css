@@ -46,6 +46,9 @@ body{
     background: white;
     color: rgba(0, 0, 0, 0.5);
 }
+/* .years{
+    border-right: 1px solid gray;
+} */
 
 .h-lock{
     display: flex;
@@ -161,7 +164,9 @@ body{
     margin: auto;
     border-radius: 5rem;
 }
-
+.photo img{
+    border-radius: 4rem;
+}
 .card-group>.card+.card{
     border: 1px solid white;
     border-radius: 2rem;
@@ -333,5 +338,12 @@ i.fa-brands.fa-instagram.icons{
 .map{
     height: 50vh;
     border-radius: 3rem;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    height: 11rem;
+}
+.footer-top{
+    margin-bottom: 5rem;
 }
 }
